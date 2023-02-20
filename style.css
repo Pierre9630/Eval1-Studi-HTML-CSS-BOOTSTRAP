@@ -1,0 +1,34 @@
+nav{
+    display: block;
+}
+body{
+    margin: 16px;
+    font-size: 14px;
+    margin : 0;
+    padding: 0;
+    background-color: azure;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-color: green;
+    
+}
+footer {
+
+
+    background-color: #005cbf;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+p{
+    /* réglage mobile et + */
+    font-family:sans-serif;
+    font-size:16px;
+  }
+  @media screen and (min-width:640px){
+    p{
+     /* réglage à partir de 640px et + : corps un peu plus grand et même typo */
+      font-size:21px;
+    }
+  }

@@ -1,0 +1,68 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+html,body{
+    overflow-x: hidden;
+}
+/*nav{
+    display: block;
+    width: 100%;
+}*/
+body{
+    position: relative;        
+    font-size: 10px;
+    margin : 0;
+    padding: 0;
+    background-color: azure;    
+    border-color: green;
+    
+}
+article, main{
+    width: 98vw;
+}
+h1{
+    margin : 2px;
+    padding: 2px;
+    width: 88vw;
+}
+.presentation{
+    width: 96vw;
+    margin-bottom: 10%;
+    margin-top: 0;    
+    padding: 0.5%;
+    background-color: beige;
+    font-size: 2em;
+    border-radius: 25px;
+}
+h2, .presentation, p, h4,iframe{
+    margin:2%;
+}
+main{
+    width: 88vw;
+}
+.HomeMug{
+    position: relative;
+    width: 88vw;
+    margin: auto;
+}
+iframe{
+    width: 94%;
+    
+}
+footer {
+
+
+    background-color: #005cbf;
+    color: white;
+    margin-top: auto;
+    padding: 10px;
+    
+}
+@media only screen and(min-width: 500px){
+    h4,iframe{
+        margin:0;
+        padding: 0;
+    }
+}
