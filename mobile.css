@@ -1,7 +1,7 @@
 html{
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: relative;
 }
 html,body{
     overflow-x: hidden;
@@ -23,8 +23,8 @@ article, main{
     width: 98vw;
 }
 h1{
-    margin : 2px;
-    padding: 2px;
+    margin : 4px;
+    padding: 4px;
     width: 88vw;
 }
 .presentation{
@@ -45,7 +45,7 @@ main{
 .HomeMug{
     position: relative;
     width: 88vw;
-    margin: auto;
+    margin: 4px;
 }
 iframe{
     width: 94%;
@@ -60,7 +60,13 @@ footer {
     padding: 10px;
     
 }
-@media only screen and(min-width: 500px){
+@media only screen and (min-width: 500px){
+    body{
+        font-size:14px;
+    }
+    .presentation{
+        font-size: 1.5em;
+    }
     h4,iframe{
         margin:0;
         padding: 0;
