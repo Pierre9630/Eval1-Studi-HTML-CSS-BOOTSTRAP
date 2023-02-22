@@ -3,14 +3,14 @@ html{
     height: 100vh;
     position: relative;
 }
-html,body{
-    overflow-x: hidden;
-}
+
 /*nav{
     display: block;
     width: 100%;
 }*/
 body{
+    width: 100vw;
+    overflow-x: hidden;
     position: relative;        
     font-size: 10px;
     margin : 0;
@@ -19,8 +19,12 @@ body{
     border-color: green;
     
 }
-article, main{
+header{
     width: 98vw;
+}
+main{
+    width: 94vw;
+    padding-inline: 1em;
 }
 h1{
     margin : 4px;
@@ -28,7 +32,7 @@ h1{
     width: 88vw;
 }
 .presentation{
-    width: 96vw;
+    width: 92vw;
     margin-bottom: 10%;
     margin-top: 0;    
     padding: 0.5%;
@@ -36,20 +40,24 @@ h1{
     font-size: 2em;
     border-radius: 25px;
 }
-h2, .presentation, p, h4,iframe{
+h2, .presentation, p, h4{
     margin:2%;
 }
 main{
-    width: 88vw;
+    width: 100vw;
 }
 .HomeMug{
     position: relative;
     width: 88vw;
     margin: 4px;
 }
+.iframe{
+    width: 94vw;
+}
 iframe{
-    width: 94%;
-    
+    padding-inline: 1em;
+    width: 100%;
+    margin-inline: auto;
 }
 footer {
 
@@ -68,7 +76,7 @@ footer {
         font-size: 1.5em;
     }
     h4,iframe{
-        margin:0;
+        
         padding: 0;
     }
 }
