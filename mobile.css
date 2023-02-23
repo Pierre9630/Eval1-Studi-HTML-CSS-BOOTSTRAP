@@ -74,6 +74,7 @@ footer {
     width: 90vw;
     height: 100wh;
 }
+/*responive => 500px width*/
 @media only screen and (min-width: 500px){
     body{
         font-size:14px;
@@ -84,5 +85,27 @@ footer {
     h4,iframe{
         
         padding: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body{
+        font-size: 20px;
+    }
+    article{
+        display:flex;
+    }
+    img{
+        width: 50vw;
+        height: 50vh;
+    }
+    iframe{
+        height: 100%; 
+        width:100%;
+        
+    }
+    h2{
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
 }
