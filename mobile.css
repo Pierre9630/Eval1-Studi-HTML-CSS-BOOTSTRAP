@@ -22,8 +22,10 @@ body{
 header{
     width: 98vw;
 }
-main{
+.iframe, main {
     width: 94vw;
+}
+main{
     padding-inline: 1em;
 }
 h1,h3{
@@ -50,9 +52,6 @@ main{
     position: relative;
     width: 88vw;
     margin: 4px;
-}
-.iframe{
-    width: 94vw;
 }
 iframe{
     padding-inline: 1em;
@@ -110,6 +109,7 @@ footer {
         align-items: center;
         justify-content: center;
     }
+    /* funny font*/
     @font-face {
         src: url('fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf');
         font-family:'TiltPrism';
