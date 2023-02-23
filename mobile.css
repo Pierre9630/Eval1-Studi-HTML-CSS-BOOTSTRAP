@@ -1,15 +1,15 @@
-html{
-    width: 100vw;
+html{    
     height: 100vh;
     position: relative;
 }
-
+html,main, body{
+    width: 100vw;
+}
 /*nav{
     display: block;
     width: 100%;
 }*/
-body{
-    width: 100vw;
+body{    
     overflow-x: hidden;
     position: relative;        
     font-size: 10px;
@@ -45,9 +45,6 @@ h1,h3{
 h2, .presentation, p, h4{
     margin:2%;
 }
-main{
-    width: 100vw;
-}
 .HomeMug{
     position: relative;
     width: 88vw;
@@ -55,7 +52,7 @@ main{
 }
 iframe{
     padding-inline: 1em;
-    width: 100%;
+    width: 96vw;
     margin-inline: auto;
 }
 footer {
@@ -71,7 +68,6 @@ footer {
 /*events.html */
 .Event{
     width: 90vw;
-    height: 100wh;
 }
 
 /*responsive => 500px width*/
@@ -92,7 +88,7 @@ footer {
     body{
         font-size: 20px;
     }
-    article{
+    article, .map-box{
         display:flex;
     }
     img{
@@ -104,8 +100,7 @@ footer {
         width:60vw;
         margin:2%;
     }
-    .map-box{
-        display:flex;
+    .map-box{        
         align-items: center;
         justify-content: center;
     }
