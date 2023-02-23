@@ -1,0 +1,35 @@
+$primary-color: #604343;
+$sm: 648px;
+$box_color: lightgreen;
+$psize : 1.5em;
+
+.test-scss h3:hover{
+    border: 16px solid $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-scss{
+    width: 92vw;
+    margin-bottom: 10%;
+    margin-top: 0;    
+    padding: 0.5%;
+    background-color: $box_color;
+    border-radius: 25px;
+    margin:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-scss{
+    p{
+        font-size: $psize;
+    }    
+}
+/*mobile max width 648px*/
+@media only screen and (max-width: ($sm)){
+    .test-scss h3:hover{
+        border: 12px solid $primary-color;
+        border-radius: 10%;
+    }
+}
