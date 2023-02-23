@@ -88,6 +88,7 @@ footer {
         padding: 0;
     }
 }
+/*responsive => 500px width*/
 @media only screen and (min-width: 992px) {
     body{
         font-size: 20px;
@@ -109,9 +110,15 @@ footer {
         align-items: center;
         justify-content: center;
     }
+    @font-face {
+        src: url('fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf');
+        font-family:'TiltPrism';
+        font-style: normal;
+    }
     h4{
         
         border: 5px ridge brown;
         box-shadow: 8px 5px 5px brown;
+        font-size:36px;
     }
 }
