@@ -96,6 +96,10 @@ footer {
         width: 50vw;
         height: 50vh;
     }
+    .HomeMug{
+        width: 30%;
+        height: 30%;
+    }
     iframe{
         height: 60vh; 
         width:60vw;
