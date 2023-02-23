@@ -1,7 +1,7 @@
 $primary-color: #604343;
 $sm: 648px;
 $box_color: lightgreen;
-$psize : 2em;
+$psize : 1.5em;
 
 .test-scss h3:hover{
     border: 16px solid $primary-color;
@@ -26,6 +26,7 @@ $psize : 2em;
         font-size: $psize;
     }    
 }
+/*mobile*/
 @media only screen and (max-width: ($sm)){
     .test-scss h3:hover{
         border: 12px solid $primary-color;

@@ -1,3 +1,4 @@
+/*mobile first below*/
 html{    
     height: 100vh;
     position: relative;
@@ -5,10 +6,7 @@ html{
 html,main, body{
     width: 100vw;
 }
-/*nav{
-    display: block;
-    width: 100%;
-}*/
+
 body{    
     overflow-x: hidden;
     position: relative;        
@@ -84,7 +82,7 @@ footer {
         padding: 0;
     }
 }
-/*responsive => 500px width*/
+/*responsive => 992px width*/
 @media only screen and (min-width: 992px) {
     body{
         font-size: 20px;

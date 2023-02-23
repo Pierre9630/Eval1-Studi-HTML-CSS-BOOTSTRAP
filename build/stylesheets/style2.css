@@ -19,9 +19,10 @@
 }
 
 .test-scss p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
+/*mobile*/
 @media only screen and (max-width: 648px) {
   .test-scss h3:hover {
     border: 12px solid #604343;
