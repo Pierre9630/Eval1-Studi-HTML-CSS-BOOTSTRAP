@@ -12,7 +12,7 @@ html,main, body{
 body{    
     overflow-x: hidden;
     position: relative;        
-    font-size: 10px;
+    font-size: 14px;
     margin : 0;
     padding: 0;
     background-color: azure;    
@@ -74,7 +74,7 @@ footer {
 /*responsive => 500px width*/
 @media only screen and (min-width: 500px){
     body{
-        font-size:14px;
+        font-size:16px;
     }
     .presentation{
         font-size: 1.5em;
@@ -91,6 +91,9 @@ footer {
     }
     article, .map-box{
         display:flex;
+    }
+    .presentation{
+        font-size: 1.5em;
     }
     img{
         width: 50vw;
@@ -120,6 +123,6 @@ footer {
         color: green;
         border: 5px ridge brown;
         box-shadow: 8px 5px 5px brown;
-        font-size:36px;
+        font-size:1.8em;
     }
 }
