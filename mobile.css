@@ -44,6 +44,7 @@ h1,h3{
 }
 h2, .presentation, p, h4{
     margin:2%;
+    font-size: larger;
 }
 .HomeMug{
     position: relative;
