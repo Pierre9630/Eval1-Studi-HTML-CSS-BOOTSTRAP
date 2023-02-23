@@ -1,11 +1,10 @@
 $primary-color: #604343;
+$sm: 648px;
 .test-scss h3:hover{
-    border: 10px solid $primary-color;
+    border: 4px solid $primary-color;
 }
-@mixin sm{
-    @media only screen and (max-width: ($sm)){
-        .test-scss h3:hover{
-            border: 10px solid $primary-color;
-        }
+@media only screen and (max-width: ($sm)){
+    .test-scss h3:hover{
+        border: 10px solid $primary-color;
     }
 }
