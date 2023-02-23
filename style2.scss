@@ -17,6 +17,9 @@ $psize : 2em;
     background-color: $box_color;
     border-radius: 25px;
     margin:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .test-scss{
     p{
