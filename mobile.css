@@ -26,7 +26,7 @@ main{
     width: 94vw;
     padding-inline: 1em;
 }
-h1{
+h1,h3{
     margin : 4px;
     padding: 4px;
     width: 88vw;
@@ -67,6 +67,12 @@ footer {
     margin-top: auto;
     padding: 10px;
     
+}
+
+/*events.html */
+.Event{
+    width: 90vw;
+    height: 100wh;
 }
 @media only screen and (min-width: 500px){
     body{
