@@ -26,7 +26,7 @@ $psize : 1.5em;
         font-size: $psize;
     }    
 }
-/*mobile*/
+/*mobile max width 648px*/
 @media only screen and (max-width: ($sm)){
     .test-scss h3:hover{
         border: 12px solid $primary-color;
