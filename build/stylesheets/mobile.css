@@ -82,8 +82,8 @@ footer {
         padding: 0;
     }
 }
-/*responsive => 992px width*/
-@media only screen and (min-width: 992px) {
+/*responsive => 1068px width*/
+@media only screen and (min-width: 1068px) {
     body{
         font-size: 20px;
     }
