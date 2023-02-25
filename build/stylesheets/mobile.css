@@ -70,7 +70,7 @@ footer {
 }
 
 /*responsive tablet => 500px width*/
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 468px){
     body{
         font-size:16px;
     }
