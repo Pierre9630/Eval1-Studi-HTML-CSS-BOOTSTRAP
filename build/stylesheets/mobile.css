@@ -40,7 +40,7 @@ h1,h3{
     font-size: 2em;
     border-radius: 25px;
 }
-h2, .presentation, p, h4{
+h2, .presentation, p{
     margin:2%;
     font-size: larger;
 }
@@ -104,11 +104,13 @@ footer {
     iframe{
         height: 60vh; 
         width:60vw;
-        margin:2%;
+        margin:0.6em;
+        
     }
     .map-box{        
         align-items: center;
         justify-content: center;
+        position: relative;
     }
     /* funny font*/
     @font-face {
@@ -118,9 +120,11 @@ footer {
     }
     h4{
         font-family: "TiltPrism";
+        font-style: normal;
         color: green;
         border: 5px ridge brown;
         box-shadow: 8px 5px 5px brown;
         font-size:1.8em;
+        margin : 8px;
     }
 }
